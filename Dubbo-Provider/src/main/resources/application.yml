@@ -1,0 +1,10 @@
+server:
+  port: 8081
+dubbo:
+  application:
+    name: dubbo-provider
+  registry:
+    address: zookeeper://wonder-soul.fun:12181
+  protocol:
+    name: dubbo
+    port: 20880
